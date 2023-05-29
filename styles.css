@@ -86,7 +86,7 @@ nav a.active {
 }
 
 .container_aboutus {
-
+padding: 1px;
   background-color: #4997CF;
   fill-opacity: 72%;
   max-height: 800px;

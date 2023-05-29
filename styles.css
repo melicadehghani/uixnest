@@ -88,12 +88,12 @@ nav a.active {
   max-height: 800px;
 }
 .container_aboutus_left {
-  border: 2px solid purple;
+ 
   width: 40vw;
   margin: 2rem 0 0 2rem;
 }
 .container_aboutus_right{
-  border: 2px solid green;
+ 
   width: 40vw;
   text-align: right;
   position: relative;

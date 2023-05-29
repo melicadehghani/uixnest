@@ -137,6 +137,10 @@ padding: 2px;
   column-gap: 38vw;
 }
 
+.grid-item {
+  padding-top: 3%;
+  
+}
 
 .learn-more {
   background-color: #30ABF0;

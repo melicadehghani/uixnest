@@ -9,6 +9,9 @@ body{
   h1, h2, h3 {
     font-family: 'Monda', sans-serif;
   }
+p {
+    font-family: 'Monda', sans-serif;
+}
 
 header{
     max-height: 100px;

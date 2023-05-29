@@ -1,0 +1,169 @@
+body{
+    margin: 0%;
+}
+.main-bkgd {
+    
+    background-repeat: no-repeat, repeat;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Monda', sans-serif;
+  }
+
+header{
+    max-height: 100px;
+}
+
+.nav-bg {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ffffff;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 10px;
+}
+
+.nav-bg a{
+    vertical-align: middle;
+}
+
+nav{
+ padding-top: 30px;
+ box-shadow: 0px 10px 10px gray;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+nav li {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.3rem;
+}
+/* max width on the image in pixels */
+nav .logo {
+  margin: 0 1rem 0 1rem;
+  max-width: 150px;
+  padding-left:  1rem;
+ 
+}
+/* flex basis on the image container, li */
+nav .logo {
+  text-align: center;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-family: 'Monda', sans-serif;
+}
+
+nav a:hover,
+nav a.active {
+  color: #30ABF0;
+  font-weight: 700;
+}
+
+/* THIS IS WHERE I STARTED MY CSS */
+
+.hero-image {
+  background-repeat: no-repeat, repeat;
+  background-image: url('image/hero.png');
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 500px; /* Adjust the height as needed */
+  /* Other styles */
+  
+}
+
+.container_aboutus {
+  border: 1px solid red;
+  background-color: #4997CF;
+  fill-opacity: 72%;
+  max-height: 800px;
+}
+.container_aboutus_left {
+  border: 2px solid purple;
+  width: 40vw;
+  margin: 2rem 0 0 2rem;
+}
+.container_aboutus_right{
+  border: 2px solid green;
+  width: 40vw;
+  text-align: right;
+  position: relative;
+  left: 57vw;
+  margin-right: 2rem;
+  /* float: right;*/
+}
+.container_aboutus_tutorials h1 {
+  padding-left: 2rem;
+
+}
+.tutorials_videos {
+  text-align: center;
+}
+.tutorials_videos img {
+  margin: 0 2rem 0 0rem;
+  text-align: center;
+}
+
+.container_portfolio_building_bottom_left {
+  border: 1px solid orange;
+  margin: 2rem 0 0 2rem;
+  width: 40vw;
+  text-align: left;
+  position: relative;
+ 
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 2%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3.5%;
+  column-gap: 38vw;
+}
+
+
+.learn-more {
+  background-color: #30ABF0;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-family: 'Inter', 'sans-serif';
+  border-radius: 20px;
+}
+.learn-more:hover {
+background-color: #FFFFFF;
+border: 3px solid #30ABF0;
+color: #30ABF0;
+}
+.grid-item img {
+  padding-bottom: 8%;
+  
+}
+
+
+footer {
+background-color: #06405A;
+color: #f2f2f2;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Monda';
+    font-weight: 400;
+    font-size: 24px;
+}

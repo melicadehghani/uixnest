@@ -92,7 +92,7 @@ nav a.active {
 padding: 1px;
   background-color: #4997CF;
   fill-opacity: 72%;
-  max-height: 800px;
+  max-height: auto;
 }
 .container_aboutus_left {
 padding: 2px; 

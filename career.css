@@ -1,0 +1,207 @@
+body{
+    margin: 0%;
+}
+.main-bkgd {
+    background: #ffffff url('image/UIX-Nest-BG.png');
+    background-repeat: no-repeat, repeat;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Monda', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: #A5A5A5;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 4rem;
+    /* dk added this margin */ 
+    margin-bottom: 1px;
+  }
+
+  p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 24px;
+  }
+
+
+header{
+    max-height: 100px;
+}
+
+.nav-bg {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ffffff;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 10px;
+}
+
+.nav-bg a{
+    vertical-align: middle;
+}
+
+nav{
+ padding-top: 30px;
+ box-shadow: 0px 10px 10px gray;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+}
+nav li {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.3rem;
+}
+/* max width on the image in pixels */
+nav .logo {
+  margin: 0 1rem 0 1rem;
+  max-width: 150px;
+  padding-left:  1rem;
+}
+/* flex basis on the image container, li */
+nav .logo {
+  text-align: center;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-family: 'Monda', sans-serif;
+}
+
+nav a:hover,
+nav a.active {
+  color: #30ABF0;
+  font-weight: 700;
+}
+/* don't touch the above! */
+
+.grid-container {
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+  figcaption{
+    font-family: 'Monda', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 1rem;
+  }
+
+img {
+    display: grid;
+    margin: auto;
+  }
+
+  .grid-item-a, .grid-item-b, .grid-item-c, .grid-item-d {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0px 15px 0px;
+    text-align: center;
+      font-family:'inter',sans-serif;
+      font-size: 24px; 
+      line-height: 150%;
+      font-weight: 300;
+  }
+
+  .grid-item-a a, .grid-item-b a, .grid-item-c a, .grid-item-d a {
+   color: black; 
+   text-decoration: none;
+  }
+
+  .grid-item-a a:hover{
+color:#457B7C;
+  }
+
+ .grid-item-a hr {
+    margin: 15px 40rem;
+      height: 8px;
+      // background-color: white;
+      background-image: linear-gradient(90deg, transparent, #457B7C, #457B7C,transparent);
+      
+      border: 0;
+      height: 1px;
+
+  }
+
+/* CAREER PATH 2 */
+  
+.grid-item-b a:hover{
+  color:#775273;
+  text-decoration:
+    }
+  
+   .grid-item-b hr {
+      margin: 15px 40rem;
+        height: 8px;
+        // background-color: white;
+        background-image: linear-gradient(90deg, transparent, #775273, #775273,transparent);
+        
+        border: 0;
+        height: 1px;
+  
+    }
+  
+/* CAREER PATH 3 */
+  
+.grid-item-c a:hover{
+  color:#CF9038;
+  text-decoration:
+    }
+  
+   .grid-item-c hr {
+      margin: 15px 40rem;
+        height: 8px;
+        // background-color: white;
+        background-image: linear-gradient(90deg, transparent, #CF9038, #CF9038,transparent);
+        
+        border: 0;
+        height: 1px;
+  
+    }
+
+/* CAREER PATH 4 */
+  
+.grid-item-d a:hover{
+  color:#6A88F8;
+  text-decoration:
+    }
+  
+   .grid-item-d hr {
+      margin: 15px 40rem;
+        height: 8px;
+        // background-color: white;
+        background-image: linear-gradient(90deg, transparent, #6A88F8, #6A88F8,transparent);
+        
+        border: 0;
+        height: 1px;
+  
+    }
+
+
+/* footer incoming below! */
+footer {
+  margin-top: 15rem;
+background-color: #06405A;
+color: #f2f2f2;
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Monda';
+    font-weight: 400;
+    font-size: 24px;
+}
